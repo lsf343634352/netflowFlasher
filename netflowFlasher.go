@@ -21,7 +21,7 @@ var downloadList = []string{"https://api-takumi.mihoyo.com/event/download_porter
 
 // 下载限速，单位KB
 const (
-	datachunk = 3 * 1024 * 1024 // 下载限速
+	datachunk = 100 * 1024 * 1024 // 下载限速
 	timelapse = 1               // per second
 )
 
